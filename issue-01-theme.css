@@ -1031,6 +1031,7 @@ h2.dek {
   color: #2D2D2D;
   padding: -0.5em 0 -0.5em 0;
   margin-bottom: 4em;
+  padding-left: 0;
 }
 
 .article-header .hed-container {
@@ -1172,6 +1173,11 @@ body {
   overflow-x: hidden;
 }
 
+.aside {
+  font-family: Silkscreen;
+  font-size: 14px;
+  line-height: 16px;
+}
 
 @media all and (max-width: 1200px) {
   .parametric-metadata-container {
