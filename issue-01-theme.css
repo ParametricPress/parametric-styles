@@ -1179,6 +1179,11 @@ body {
   line-height: 16px;
 }
 
+.parametric-article-dek {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
 @media all and (max-width: 1200px) {
   .parametric-metadata-container {
     position: static;
@@ -1216,4 +1221,16 @@ body {
   } */
 
 
+}
+
+@media all and (max-width: 800px) {
+  body {
+    font-size: 16px;
+    line-height: 32px;
+    overflow: hidden;
+  }
+
+  .parametric-article-dek {
+    font-size: 24px;
+  }
 }
