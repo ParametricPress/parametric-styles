@@ -1184,6 +1184,30 @@ body {
   line-height: 1.5;
 }
 
+.parametric-article-nav {
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  z-index: 1000;
+  font-size: 32px;
+}
+
+.parametric-header-text {
+  display: flex;
+  width: 100vw;
+  position: relative;
+  top: 4em;
+}
+
+.parametric-header-hed {
+  height: 520px;
+}
+
+.parametric-header-hed-text {
+  position: relative;
+  top: 120px;
+}
+
 @media all and (max-width: 1200px) {
   .parametric-metadata-container {
     position: static;
@@ -1232,5 +1256,31 @@ body {
 
   .parametric-article-dek {
     font-size: 24px;
+  }
+  .parametric-article-nav {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 24px;
+  }
+
+  .parametric-nav-links {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .parametric-header-text {
+    top: 0;
+  }
+  .parametric-header-hed {
+    height: 360px;
+  }
+  .idyll-root {
+    max-width: 100vw;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .parametric-header-hed-text {
+    top: 60px;
   }
 }
