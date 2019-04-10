@@ -981,6 +981,11 @@ h2 {
 
 .idyll-root {
   padding-top: 0;
+  margin-bottom: 0 !important;
+}
+
+html {
+  border-bottom: solid 75px #000000;
 }
 
 button {
@@ -1240,8 +1245,13 @@ a {
 .parametric-caption {
   font-family: 'Graphik Web';
   line-height: 1.25;
+  /* padding-top: 0.5em; */
   margin-top: 1em;
+  /* border-top: solid 1px #c5c5c5; */
   margin-bottom: 2em;
+  max-width: 600px;
+  font-size: 14px;
+  line-height: 1.25;
 }
 
 @media all and (max-width: 1200px) {
