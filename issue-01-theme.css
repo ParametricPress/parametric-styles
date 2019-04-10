@@ -366,26 +366,6 @@ strong {
   font-weight: 600;
 }
 
-hr {
-  height: 0;
-  margin: 15px 0;
-  overflow: hidden;
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid #dfe2e5;
-}
-
-hr::before {
-  display: table;
-  content: "";
-}
-
-hr::after {
-  display: table;
-  clear: both;
-  content: "";
-}
-
 table {
   border-spacing: 0;
   border-collapse: collapse;
@@ -558,10 +538,10 @@ pre {
 }
 
 hr {
-  height: 0.25em;
+  height: 2px;
   padding: 0;
-  margin: 24px 0;
-  background-color: #e1e4e8;
+  margin: 2em 0;
+  background-color: #222;
   border: 0;
 }
 
@@ -599,8 +579,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 24px;
-  margin-bottom: 16px;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
   font-weight: 600;
   line-height: 1.25;
 }
@@ -843,10 +823,6 @@ kbd {
   vertical-align: middle;
 }
 
-hr {
-  border-bottom-color: #eee;
-}
-
 .idyll-dynamic {
   text-decoration: underline;
   text-decoration-style: dotted;
@@ -984,8 +960,8 @@ body {
   font-size: 22px;
 }
 
-h2, h3 {
-  font-size: 20px;
+h1, h2, h3, h4, h5, h6 {
+  /* font-size: 20px; */
   font-family: 'Graphik Web';
   text-decoration: none;
   border-bottom: none;
@@ -1000,7 +976,7 @@ h2.dek {
 }
 
 h2 {
-  margin: 50px 0 16px;
+  margin: 2em 0 0.5em;
 }
 
 .idyll-root {
@@ -1010,10 +986,16 @@ h2 {
 button {
   display: block;
   margin: 1em auto;
-}
+  background: #4801FF;
+  font-family: Silkscreen;
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  color: white;
+  font-size: 14px;
+  padding: 1em 2em;
+  cursor: pointer;
 
-h1, h2, h3, h4, h5 {
-  border-bottom: none;
 }
 
 pre {
@@ -1155,6 +1137,7 @@ h1.hed-rotate {
   font-family: "Graphik Web";
   font-weight: 800;
   font-size: 240px;
+  margin-top: 0;
   color: #222222;
 /* Safari */
   line-height: 200px;
@@ -1184,6 +1167,15 @@ body {
   font-family: 'Graphik Web';
   font-size: 14px;
   line-height: 16px;
+}
+
+a {
+  color: #4801FF;
+}
+
+.parametric-inset {
+  margin: 2em 2em;
+  font-family: 'Graphik Web';
 }
 
 .parametric-article-dek {
@@ -1238,6 +1230,18 @@ body {
 
 .parametric-issue-toc {
   font-size: 28px;
+}
+
+.parametric-float-right {
+  max-width: 1000px;
+  margin: 2em 2em 2em auto;
+}
+
+.parametric-caption {
+  font-family: 'Graphik Web';
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 @media all and (max-width: 1200px) {
@@ -1327,3 +1331,4 @@ body {
     text-align: right;
   }
 }
+
