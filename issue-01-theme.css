@@ -1000,7 +1000,6 @@ button {
   font-size: 14px;
   padding: 1em 2em;
   cursor: pointer;
-
 }
 
 pre {
@@ -1252,6 +1251,31 @@ a {
   max-width: 600px;
   font-size: 14px;
   line-height: 1.25;
+}
+
+.parametric-tooltip-trigger {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.25s;
+}
+.parametric-tooltip-trigger:hover {
+  color: #4801FF;
+}
+
+.parametric-tooltip {
+  background-color: #fff !important;
+  color: #222 !important;
+  box-shadow: 2px 2px 5px #222;
+  font-family: 'Graphik Web';
+  font-size: 14px !important;
+  max-width: 400px;
+  line-height: 1.25;
+  opacity: 1 !important;
+  border-radius: 0 !important;
+}
+
+.parametric-tooltip:after {
+  border: none !important;
 }
 
 @media all and (max-width: 1200px) {
