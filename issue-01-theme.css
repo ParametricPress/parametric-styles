@@ -1326,9 +1326,13 @@ a {
 }
 
 @media all and (max-width: 800px) {
+
   body {
     font-size: 16px;
     line-height: 32px;
+  }
+  .article-header {
+    overflow: hidden;
   }
 
   .parametric-article-dek {
