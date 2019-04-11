@@ -1135,6 +1135,7 @@ h1.hed-offset {
   position: relative;
   top: -8px;
   left: -13px;
+  pointer-events: none;
 }
 
 h1.hed-rotate {
@@ -1145,6 +1146,7 @@ h1.hed-rotate {
   color: #222222;
 /* Safari */
   line-height: 200px;
+  pointer-events: none;
 
 -webkit-transform: rotate(90deg);
 -webkit-transform-origin: left top;
@@ -1256,7 +1258,6 @@ a {
 .parametric-tooltip-trigger {
   cursor: pointer;
   text-decoration: underline;
-  transition: 0.25s;
 }
 .parametric-tooltip-trigger:hover {
   color: #4801FF;
@@ -1299,7 +1300,7 @@ a {
 
 @media all and (max-width: 1000px) {
   .idyll-root {
-    max-width: none;
+    max-width: 100vw;
     padding: 0;
   }
 
@@ -1319,7 +1320,9 @@ a {
     line-height: 100px;
   } */
 
-
+  .parametric-header-hed-text {
+    max-width: 90vw;
+  }
 }
 
 @media all and (max-width: 800px) {
@@ -1350,7 +1353,6 @@ a {
   }
   .idyll-root {
     max-width: 100vw;
-    overflow-x: hidden;
     padding: 0;
   }
 
