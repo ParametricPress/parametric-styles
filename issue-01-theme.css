@@ -1279,6 +1279,21 @@ a {
   border: none !important;
 }
 
+#idyll-mount {
+  transition: 10s;
+  opacity: 1;
+}
+html.is-animating #idyll-mount {
+  opacity: 0;
+}
+
+.parametric-long-title {
+  font-weight: 900;
+  font-family: 'Graphik Web';
+  font-size: 72px;
+  line-height: 1.1;
+}
+
 @media all and (max-width: 1200px) {
   .parametric-metadata-container {
     position: static;
