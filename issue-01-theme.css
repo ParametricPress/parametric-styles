@@ -1214,25 +1214,28 @@ a {
   top: 120px;
 }
 
-.parametric-recirc {
+.parametric-recirc-next-article {
   width: 100%;
-  padding-left: 50px;
-}
-.parametric-recirc a {
-  font-family: 'Graphik Web';
-  font-size: 196px;
+  font-size: 24px;
+  font-family: 'Silkscreen';
   line-height: 1;
   font-weight: bold;
+  margin-bottom: 1em;
+}
+.parametric-recirc-next-article a {
+  font-family: 'Graphik Web';
+  font-size: 64px;
   color: #ffffff;
   text-shadow: -1px -1px 0 #4801FF, 1px -1px 0 #4801FF, -1px 1px 0 #4801FF, 1px 1px 0 #4801FF;
   transition: all 0.25s;
   cursor: pointer;
 }
 
-.parametric-recirc a:hover {
+.parametric-recirc-next-article a:hover {
   color: #4801FF;
   text-shadow: none;
 }
+
 
 
 .parametric-issue-toc {
@@ -1306,6 +1309,7 @@ html.is-animating #idyll-mount {
 
 .hed-rotate {
   z-index: 10;
+  pointer-events: none;
 }
 
 .parametric-footer {
@@ -1378,9 +1382,13 @@ html.is-animating #idyll-mount {
     padding: 0;
   }
 
-  .parametric-recirc a {
-    font-size: 128px;
-    text-align: center;
+  .parametric-recirc-module {
+    max-width: 350px;
+    margin: 2em auto;
+  }
+  .parametric-recirc-next-article a {
+    /* font-size: 128px;
+    text-align: center; */
   }
   /* h1.hed {
     font-size: 96px;
