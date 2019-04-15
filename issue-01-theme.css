@@ -1331,6 +1331,15 @@ html.is-animating #idyll-mount {
   margin: 0;
   margin-bottom: 1em;
 }
+.parametric-footer input {
+  display: inline-block;
+}
+
+.parametric-footer form label {
+  font-size: 23px;
+}
+
+
 .parametric-footer input[type=submit] {
   padding: 0.5em 1em;
   display: inline-block;
@@ -1384,10 +1393,15 @@ html.is-animating #idyll-mount {
 
   .parametric-footer {
     flex-direction: column;
+    margin-left: 1em;
   }
 
   .parametric-footer form {
     text-align: left;
+    margin-top: 1em;
+  }
+  .parametric-footer form label {
+    font-size: 18px;
   }
 }
 
