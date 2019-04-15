@@ -714,9 +714,8 @@ table tr:nth-child(2n) {
 }
 
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
   box-sizing: content-box;
-  background-color: #fff;
 }
 
 code {
@@ -982,13 +981,11 @@ h2 {
 .idyll-root {
   padding-top: 0;
   margin-bottom: 0 !important;
+  padding-bottom: 0;
 }
 
-html {
-  border-bottom: solid 75px #000000;
-}
 
-button {
+button, input[type=submit] {
   display: block;
   margin: 1em auto;
   background: #4801FF;
@@ -1072,6 +1069,7 @@ h2.dek {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .parametric-metadata-container {
@@ -1104,6 +1102,9 @@ img {
 
 .article-header {
   width: 100%;
+  max-width: none;
+}
+.article-header img {
   max-width: none;
 }
 
@@ -1280,7 +1281,7 @@ a {
 }
 
 #idyll-mount {
-  transition: 10s;
+  transition: opacity 2s;
   opacity: 1;
 }
 html.is-animating #idyll-mount {
@@ -1293,6 +1294,52 @@ html.is-animating #idyll-mount {
   font-size: 72px;
   line-height: 1.1;
 }
+
+.parametric-header-image img {
+  width: 400px;
+  z-index: 3;
+  position: relative;
+  top: -70px;
+  left: -120px;
+  background: none;
+}
+
+.hed-rotate {
+  z-index: 10;
+}
+
+.parametric-footer {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 2em 50px 1em 50px;
+  margin-top: 2em;
+  font-family: 'Graphik Web';
+  font-size: 16px;
+}
+
+.parametric-footer form {
+  text-align: right;
+}
+
+.parametric-footer > div {
+  width: 100%;
+}
+.parametric-footer img {
+  width: 300px;
+  margin: 0;
+  margin-bottom: 1em;
+}
+.parametric-footer input[type=submit] {
+  padding: 0.5em 1em;
+  display: inline-block;
+  margin: 0;
+}
+.parametric-footer a {
+  color: white;
+}
+
 
 @media all and (max-width: 1200px) {
   .parametric-metadata-container {
@@ -1307,9 +1354,12 @@ html.is-animating #idyll-mount {
     flex-direction: row;
     justify-content: space-around
   }
-  h1.hed-rotate {
+  /* h1.hed-rotate {
     font-size: 96px;
     line-height: 100px;
+  } */
+  h1.hed-rotate {
+    display: none;
   }
 }
 
@@ -1317,13 +1367,6 @@ html.is-animating #idyll-mount {
   .idyll-root {
     max-width: 100vw;
     padding: 0;
-  }
-
-  h1.hed-rotate {
-    display: none;
-  }
-  .parametric-header-image {
-    display: none;
   }
 
   .parametric-recirc a {
@@ -1338,6 +1381,14 @@ html.is-animating #idyll-mount {
   .parametric-header-hed-text {
     max-width: 90vw;
   }
+
+  .parametric-footer {
+    flex-direction: column;
+  }
+
+  .parametric-footer form {
+    text-align: left;
+  }
 }
 
 @media all and (max-width: 800px) {
@@ -1348,6 +1399,10 @@ html.is-animating #idyll-mount {
   }
   .article-header {
     overflow: hidden;
+  }
+
+  .parametric-header-image {
+    display: none;
   }
 
   .parametric-article-dek {
