@@ -1397,7 +1397,7 @@ html.is-animating #idyll-mount {
     margin: 2em auto;
   }
   .parametric-recirc-next-article {
-    margin-left: 1em;
+    margin-left: 0.5em;
   }
   .parametric-recirc-next-article a {
     /* font-size: 128px;
@@ -1426,7 +1426,12 @@ html.is-animating #idyll-mount {
   }
 
   .aside-container {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+
+  .parametric-inset {
+    margin: 2em 0;
   }
 }
 
