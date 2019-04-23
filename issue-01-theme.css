@@ -1211,7 +1211,9 @@ a {
 
 .parametric-header-hed-text {
   position: relative;
-  top: 120px;
+  top: 60px;
+  font-family: 'Graphik Web';
+  margin-left: 0;
 }
 
 .parametric-recirc-next-article {
@@ -1221,6 +1223,7 @@ a {
   line-height: 1;
   font-weight: bold;
   margin-bottom: 1em;
+  margin-left: 50px;
 }
 .parametric-recirc-next-article a {
   font-family: 'Graphik Web';
@@ -1231,7 +1234,7 @@ a {
   cursor: pointer;
 }
 
-.parametric-recirc-next-article a:hover {
+.parametric-recirc-next-article a:hover .highlight-hover {
   color: #4801FF;
   /* text-shadow: none; */
 }
@@ -1294,8 +1297,9 @@ html.is-animating #idyll-mount {
 .parametric-long-title {
   font-weight: 900;
   font-family: 'Graphik Web';
-  font-size: 72px;
-  line-height: 1.1;
+  font-size: 56px;
+  line-height: 64px;
+  color: #222;
 }
 
 .parametric-header-image img {
@@ -1392,6 +1396,9 @@ html.is-animating #idyll-mount {
     max-width: 350px;
     margin: 2em auto;
   }
+  .parametric-recirc-next-article {
+    margin-left: 1em;
+  }
   .parametric-recirc-next-article a {
     /* font-size: 128px;
     text-align: center; */
@@ -1403,11 +1410,11 @@ html.is-animating #idyll-mount {
 
   .parametric-header-hed-text {
     max-width: 90vw;
+    margin-left: 0;
   }
 
   .parametric-footer {
     flex-direction: column;
-    margin-left: 1em;
   }
 
   .parametric-footer form {
@@ -1416,6 +1423,10 @@ html.is-animating #idyll-mount {
   }
   .parametric-footer form label {
     font-size: 18px;
+  }
+
+  .aside-container {
+    margin-bottom: 1em;
   }
 }
 
@@ -1451,7 +1462,7 @@ html.is-animating #idyll-mount {
     top: 0;
   }
   .parametric-header-hed {
-    height: 360px;
+    height: 400px;
   }
   .idyll-root {
     max-width: 100vw;
