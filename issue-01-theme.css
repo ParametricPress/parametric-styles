@@ -1148,6 +1148,7 @@ h1.hed-rotate {
 /* Safari */
   line-height: 200px;
   pointer-events: none;
+  user-select: none;
 
 -webkit-transform: rotate(90deg);
 -webkit-transform-origin: left top;
@@ -1257,7 +1258,7 @@ a {
   margin-top: 1em;
   /* border-top: solid 1px #c5c5c5; */
   margin-bottom: 2em;
-  max-width: 600px;
+  /* max-width: 600px; */
   font-size: 14px;
   line-height: 1.25;
 }
@@ -1362,7 +1363,6 @@ html.is-animating #idyll-mount {
 .parametric-footer a {
   color: white;
 }
-
 
 @media all and (max-width: 1200px) {
   .parametric-metadata-container {
