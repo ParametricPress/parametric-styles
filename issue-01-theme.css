@@ -1364,6 +1364,10 @@ html.is-animating #idyll-mount {
   color: white;
 }
 
+.mobile {
+  display: none;
+}
+
 @media all and (max-width: 1200px) {
   .parametric-metadata-container {
     position: static;
@@ -1390,6 +1394,13 @@ html.is-animating #idyll-mount {
   .idyll-root {
     max-width: 100vw;
     padding: 0;
+  }
+
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: initial;
   }
 
   .parametric-recirc-module {
