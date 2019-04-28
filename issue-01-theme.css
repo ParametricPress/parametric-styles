@@ -1326,9 +1326,9 @@ a {
 .parametric-footer-link-container {
   display: flex;
   flex-direction: row;
-  -webkit-column-gap: 1em;
-  -moz-column-gap: 1em;
-  column-gap: 1em;
+}
+.parametric-footer-link-container > div {
+  margin-right: 1em;
 }
 
 .parametric-footer form {
@@ -1467,6 +1467,9 @@ a {
 
   .parametric-footer-link-container {
     flex-direction: column;
+  }
+  .parametric-footer-link-container > div {
+    margin-right: 0;
   }
 
   .parametric-footer form {
