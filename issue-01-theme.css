@@ -1261,6 +1261,11 @@ a {
   line-height: 1.25;
 }
 
+.parametric-caption a {
+  color: #24292e;
+  text-decoration: underline;  
+}
+
 .parametric-tooltip-trigger {
   cursor: pointer;
   text-decoration: underline;
