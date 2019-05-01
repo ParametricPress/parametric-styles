@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'Graphik Web';
   src: url('/static/fonts/graphik/Graphik-BlackItalic-Web.woff2') format('woff2'),
-       url('fonts/graphik/Graphik-BlackItalic-Web.woff') format('woff');
+       url('/static/fonts/graphik/Graphik-BlackItalic-Web.woff') format('woff');
   font-weight:  800;
   font-style:   italic;
   font-stretch: normal;
@@ -1263,7 +1263,7 @@ a {
 
 .parametric-caption a {
   color: #24292e;
-  text-decoration: underline;  
+  text-decoration: underline;
 }
 
 .parametric-tooltip-trigger {
@@ -1373,6 +1373,11 @@ a {
 
 .mobile {
   display: none;
+}
+
+.parametric-author-bio a {
+  color: #222;
+  text-decoration: underline;
 }
 
 @media all and (max-width: 1200px) {
