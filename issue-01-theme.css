@@ -936,6 +936,11 @@ body {
   transition: opacity 0.5s; */
 }
 
+.idyll-text-container > p {
+  margin-bottom: 32px;
+}
+
+
 .hed {
   /* Parametric: */
   font-family: bluu;
@@ -1527,7 +1532,7 @@ a {
 
   body {
     font-size: 16px;
-    line-height: 32px;
+    line-height: 24px;
   }
   .article-header {
     overflow: hidden;
