@@ -1458,6 +1458,36 @@ a {
   font-weight: 600;
 }
 
+
+.parametric-recirc-article {
+  background: #D8FFA2;
+  box-shadow: 8px 8px 0 black;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}
+
+.parametric-article-nav {
+  font-size: 24px;
+  line-height: 24px;
+
+}
+
+.parametric-header-text {
+  border-top: solid 1px #222;
+  margin: 0 50px;
+  width: calc(100vw - 100px);
+}
+
+.parametric-header-image img {
+  left: 0;
+  width: 520px
+}
+
+h1.hed-rotate {
+  top: 500px;
+}
+
+
 @media all and (max-width: 1200px) {
   .parametric-metadata-container {
     position: static;
