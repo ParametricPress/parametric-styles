@@ -1325,6 +1325,22 @@ a {
   background: none;
 }
 
+.parametric-header-image img,
+.parametric-header-image video {
+  width: 400px;
+  z-index: 3;
+  position: relative;
+  top: -70px;
+  left: -120px;
+  background: none;
+}
+.parametric-header-image img,
+.parametric-header-image video {
+  left: 0;
+  width: 520px;
+}
+
+
 .hed-rotate {
   z-index: 10;
   pointer-events: none;
