@@ -10,10 +10,6 @@ body {
   max-width: 1440px;
 }
 
-#idyll-mount {
-  overflow-x: hidden;
-}
-
 .idyll-text-container {
   max-width: 600px;
   margin-top: 0;

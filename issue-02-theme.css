@@ -1191,10 +1191,6 @@ left: calc(100% - 40px);
 white-space: nowrap;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .aside {
   font-family: 'Graphik Web';
   font-size: 14px;

@@ -1191,10 +1191,6 @@ left: calc(100% - 40px);
 white-space: nowrap;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .aside {
   font-family: 'Graphik Web';
   font-size: 14px;
@@ -1870,6 +1866,8 @@ button {
 
 .parametric-article-dek {
   font-family: 'Editorial New';
+  line-height: 1.2;
+  padding-top: 0.5em;
 }
 
 
@@ -1932,6 +1930,10 @@ button {
   .parametric-recirc-next-article {
     margin-left: 0;
     margin-right: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .parametric-article-nav {
     padding-left: 1em;
     padding-right: 1em;
   }
