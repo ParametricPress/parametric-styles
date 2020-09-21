@@ -1579,14 +1579,22 @@ h2 {
   max-width: 1440px;
 }
 
+.idyll-mount {
+  overflow-x: hidden;
+}
+
 .parametric-recirc-next-article {
-  position: relative;
-  left: calc(-1 * (100vw - 1440px) / 2);
-  width: 100vw;
+  /* position: relative; */
+  margin-left: calc(-1 * (100vw - 1440px) / 2);
+  margin-right: calc(-1 * (100vw - 1440px) / 2);
+  width: 100%;
+
 }
 
 .idyll-scroll-graphic > div {
   max-width: 1440px;
+  padding-right: 50px;
+  padding-top: 150px;
 }
 .pull-number {
   font-family: 'Editorial New';
@@ -1761,6 +1769,11 @@ input[type=range]:focus::-ms-fill-upper {
   border-bottom: solid 1px #222222;
   background-color: #ADADAD;
   color: #222222;
+  margin-left: calc((100vw - 1440px) / -2);
+  margin-right: calc((100vw - 1440px) / -2);
+  padding-left: calc((100vw - 1440px) / 2);
+  padding-right: calc((100vw - 1440px) / 2);
+  margin-top: 0;
 }
 
 .parametric-article-nav .parametric-nav-links a {
@@ -1839,12 +1852,24 @@ button {
 }
 
 .parametric-header-hed-text {
-  border-bottom-color: #ADADAD;
+  border-bottom: solid 1px #ADADAD;
+  padding: 2em 0;
 }
 
 .parametric-issue-toc {
   line-height: 1.2;
   color: #222222;
+}
+
+.parametric-long-title {
+  font-size: 56px;
+  color: #D8FFA2;
+  width: 100%;
+  font-weight: 500;
+}
+
+.parametric-article-dek {
+  font-family: 'Editorial New';
 }
 
 
@@ -1854,6 +1879,13 @@ button {
     position: relative;
     left: 0;
     width: 100vw;
+  }
+
+  .parametric-article-nav {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
