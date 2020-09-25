@@ -1009,7 +1009,7 @@ h2 {
 button, input[type=submit] {
   display: block;
   margin: 1em auto;
-  background: #4801FF;
+  background: #adadad;
   font-family: Silkscreen;
   border: none;
   box-shadow: none;
@@ -1245,13 +1245,13 @@ a {
   font-family: 'Graphik Web';
   font-size: 32px;
   color: #ffffff;
-  text-shadow: -1px -1px 0 #4801FF, 1px -1px 0 #4801FF, -1px 1px 0 #4801FF, 1px 1px 0 #4801FF;
+  text-shadow: -1px -1px 0 #adadad, 1px -1px 0 #adadad, -1px 1px 0 #adadad, 1px 1px 0 #adadad;
   transition: all 0.25s;
   cursor: pointer;
 }
 
 .parametric-recirc-next-article a:hover .highlight-hover {
-  color: #4801FF;
+  color: #adadad;
   /* text-shadow: none; */
 }
 
@@ -1289,7 +1289,7 @@ a {
   text-decoration: underline;
 }
 .parametric-tooltip-trigger:hover {
-  color: #4801FF;
+  color: #adadad;
 }
 
 .parametric-tooltip {
@@ -1799,8 +1799,9 @@ input[type=range]:focus::-ms-fill-upper {
   color: #ADADAD;
 }
 
-h2 {
+h1, h2, h3, h4, h6 {
   color: #D8FFA2;
+  font-family: 'Editorial New';
 }
 
 .pull-number {
