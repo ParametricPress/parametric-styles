@@ -1280,7 +1280,7 @@ a {
 }
 
 .parametric-caption a {
-  color: #24292e;
+  color: #D8FFA2;
   text-decoration: underline;
 }
 
@@ -1581,10 +1581,14 @@ h2 {
 
 .parametric-recirc-next-article {
   /* position: relative; */
-  margin-left: calc(-1 * (100vw - 1440px) / 2);
-  margin-right: calc(-1 * (100vw - 1440px) / 2);
   width: 100%;
+}
 
+@media screen and (min-width: 1400px) {
+  .parametric-recirc-next-article {
+    margin-left: calc(-1 * (100vw - 1440px) / 2);
+    margin-right: calc(-1 * (100vw - 1440px) / 2);
+  }
 }
 
 .idyll-scroll-graphic > div {
@@ -2043,19 +2047,6 @@ button {
   .parametric-article-dek {
     font-size: 24px;
   }
-  .parametric-article-nav {
-    margin-left: 0;
-    margin-right: 0;
-    font-size: 24px;
-    line-height: 32px;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-
-  .parametric-nav-links {
-    font-size: 18px;
-    line-height: 1.5;
-  }
 
   .parametric-header-text {
     top: 0;
@@ -2075,6 +2066,15 @@ button {
     margin-bottom: 1em;
   }
 
+
+	.idyll-text-container img {
+		margin: 2em auto;
+		width: 100%;
+  }
+
+  .idyll-scroll {
+    transform: translateX(-1em);
+  }
 }
 
 @media all and (max-width: 320px) {
@@ -2085,3 +2085,23 @@ button {
 }
 
 
+
+
+@media all and (min-width: 1440px) {
+  .parametric-recirc-next-article {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .parametric-footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+  }
+
+  .parametric-article-nav {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

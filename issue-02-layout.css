@@ -51,7 +51,7 @@ input {
 .aside {
   position: absolute;
   width: 300px;
-  right: calc((10vw + 600px + 150px) / -2);
+  left: 750px;
 }
 
 .fixed {
