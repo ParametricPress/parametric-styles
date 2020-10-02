@@ -1568,6 +1568,14 @@ h2 {
 }
 
 
+body {
+  overflow-x: hidden !important;
+}
+.parametric-article-nav {
+  overflow-x: visible;
+}
+
+
 @media all and (max-width: 1440px) {
   .parametric-recirc-next-article {
     position: relative;
