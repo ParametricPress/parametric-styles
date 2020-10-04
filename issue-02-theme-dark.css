@@ -1609,8 +1609,13 @@ h2 {
   margin: 0;
   width: calc(100% - 50px);
 }
+
 body {
   font-family: 'Graphik Web';
+}
+
+ul, ol {
+  font-family: 'Tiempos Text'
 }
 /** INPUT WIDGETS */
 
