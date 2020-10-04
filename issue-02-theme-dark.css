@@ -1251,10 +1251,16 @@ a {
 }
 
 .parametric-recirc-next-article a:hover .highlight-hover {
-  color: #adadad;
+  text-decoration: underline;
   /* text-shadow: none; */
 }
 
+.parametric-issue-toc a {
+  text-decoration: none;
+}
+.parametric-issue-toc a:hover {
+  text-decoration: underline;
+}
 
 
 .parametric-issue-toc {
