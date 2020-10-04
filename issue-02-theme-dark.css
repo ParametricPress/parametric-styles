@@ -1792,6 +1792,15 @@ input[type=range]:focus::-ms-fill-upper {
   color: #222222;
 }
 
+
+body {
+  overflow-x: hidden !important;
+}
+.parametric-article-nav {
+  overflow-x: visible;
+}
+
+
 /**
  DARK  MODE
 */

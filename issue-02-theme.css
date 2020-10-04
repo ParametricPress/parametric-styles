@@ -1217,7 +1217,6 @@ a {
   margin-left: 0;
   margin-right: 0;
   z-index: 1000;
-  font-size: 32px;
   padding: 0.5em 50px;
 }
 
@@ -1567,6 +1566,25 @@ h2 {
   margin-top: 0;
 }
 
+.parametric-article-nav {
+  font-size: 16px;
+  line-height: 24px;
+  position: sticky;
+  top: 0;
+  border-bottom: solid 1px #222222;
+  background-color: #ADADAD;
+  color: #222222;
+  margin-left: calc((100vw - 1440px) / -2);
+  margin-right: calc((100vw - 1440px) / -2);
+  padding-left: calc((100vw - 1440px) / 2);
+  padding-right: calc((100vw - 1440px) / 2);
+  margin-top: 0;
+}
+
+.parametric-article-nav .parametric-nav-links a {
+  font-weight: 300;
+  color: #D8FFA2;
+}
 
 body {
   overflow-x: hidden !important;
@@ -1574,6 +1592,7 @@ body {
 .parametric-article-nav {
   overflow-x: visible;
 }
+
 
 
 @media all and (max-width: 1440px) {
@@ -1732,18 +1751,12 @@ body {
   .parametric-article-dek {
     font-size: 24px;
   }
+
   .parametric-article-nav {
-    margin-left: 0;
-    margin-right: 0;
-    font-size: 24px;
-    line-height: 32px;
     padding-left: 1em;
     padding-right: 1em;
-  }
-
-  .parametric-nav-links {
-    font-size: 18px;
-    line-height: 1.5;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .parametric-header-text {
