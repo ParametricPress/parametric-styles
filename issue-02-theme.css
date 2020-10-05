@@ -1244,13 +1244,13 @@ a {
   font-family: 'Graphik Web';
   font-size: 32px;
   color: #ffffff;
-  text-shadow: -1px -1px 0 #4801FF, 1px -1px 0 #4801FF, -1px 1px 0 #4801FF, 1px 1px 0 #4801FF;
   transition: all 0.25s;
   cursor: pointer;
 }
 
 .parametric-recirc-next-article a:hover .highlight-hover {
-  color: #4801FF;
+  color: #222222;
+  text-decoration: underline;
   /* text-shadow: none; */
 }
 
