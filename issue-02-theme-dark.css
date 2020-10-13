@@ -1008,15 +1008,15 @@ h2 {
 
 button, input[type=submit] {
   display: block;
-  margin: 1em auto;
+  margin: 0.5em auto;
   background: #adadad;
-  font-family: Silkscreen;
+  font-family: 'Editorial New';
   border: none;
   box-shadow: none;
   border-radius: 0px;
   color: white;
-  font-size: 14px;
-  padding: 1em 2em;
+  font-size: 18px;
+  padding: 0.5em 2em;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;

@@ -1003,18 +1003,17 @@ h2 {
   padding-top: 0;
 }
 
-
 button, input[type=submit] {
   display: block;
-  margin: 1em auto;
-  background: #4801FF;
-  font-family: Silkscreen;
+  margin: 0.5em auto;
+  background: #222222;
+  font-family: 'Editorial New';
   border: none;
   box-shadow: none;
   border-radius: 0px;
-  color: white;
-  font-size: 14px;
-  padding: 1em 2em;
+  color: #ADADAD;
+  font-size: 18px;
+  padding: 0.5em 2em;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
