@@ -1591,6 +1591,10 @@ body {
   overflow-x: visible;
 }
 
+.parametric-header-metadata-component {
+  flex-wrap: wrap;
+}
+
 
 
 @media all and (max-width: 1440px) {

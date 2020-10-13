@@ -1902,6 +1902,10 @@ button {
 }
 
 
+.parametric-header-metadata-component {
+  flex-wrap: wrap;
+}
+
 @media all and (max-width: 1440px) {
   .parametric-recirc-next-article {
     position: relative;
