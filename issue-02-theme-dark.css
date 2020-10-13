@@ -1483,8 +1483,16 @@ a {
 .parametric-recirc-article {
   background: #D8FFA2;
   box-shadow: 8px 8px 0 black;
-  padding: 0.5em 1em;
+  padding: 0.5em;
   margin: 1em 0;
+}
+
+.parametric-recirc-article a {
+  text-decoration: none;
+}
+
+.parametric-recirc-article a:hover {
+  text-decoration: underline;
 }
 
 .parametric-header-text {
