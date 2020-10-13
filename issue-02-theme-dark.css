@@ -2022,6 +2022,12 @@ button {
     margin-right: 0;
   }
 
+  .past-issue-container {
+    position: static !important;
+    margin-bottom: 1em;
+  }
+
+
   .parametric-footer form {
     margin: 1em 0;
   }
@@ -2081,12 +2087,6 @@ button {
   .parametric-header-hed-text {
     top: 60px;
   }
-
-  .past-issue-container {
-    position: static !important;
-    margin-bottom: 1em;
-  }
-
 
 	.idyll-text-container img {
 		margin: 2em auto;

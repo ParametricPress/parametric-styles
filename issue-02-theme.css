@@ -1703,6 +1703,15 @@ body {
     margin-right: 0;
   }
 
+  .parametric-footer-social-link {
+    margin-top: 0.5em;
+  }
+  .past-issue-container {
+    position: static !important;
+    margin-bottom: 1em;
+  }
+
+
   .parametric-footer form {
     margin: 1em 0;
   }
