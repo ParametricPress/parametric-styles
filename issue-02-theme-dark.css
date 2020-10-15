@@ -1480,6 +1480,7 @@ a {
 }
 
 
+
 .parametric-recirc-article {
   background: #D8FFA2;
   box-shadow: 8px 8px 0 black;
@@ -1861,6 +1862,12 @@ button {
   color: #222222;
 }
 
+.parametric-author-bio {
+  font-family: 'Graphik Web';
+  font-size: 16px;
+  line-height: 1.1;
+  margin: 3em 0 2em;
+}
 
 .parametric-author-bio a {
   color: #ADADAD;
