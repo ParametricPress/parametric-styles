@@ -1460,6 +1460,7 @@ a {
 
 .parametric-graphic-source-label-wrapper {
   display: flex;
+  align-items: center;
 }
 
 .parametric-graphic-source-label {
