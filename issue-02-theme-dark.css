@@ -1010,7 +1010,7 @@ button, input[type=submit] {
   display: block;
   margin: 0.5em auto;
   background: #adadad;
-  font-family: 'Editorial New';
+  font-family: 'Graphik Web';
   border: none;
   box-shadow: none;
   border-radius: 0px;
@@ -1286,8 +1286,11 @@ a {
 }
 
 .parametric-caption a {
-  color: #D8FFA2;
+  color: #adadad;
   text-decoration: underline;
+}
+.parametric-caption a:hover {
+  color: #D8FFA2;
 }
 
 .parametric-tooltip-trigger {
