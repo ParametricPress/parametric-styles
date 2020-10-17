@@ -1016,7 +1016,7 @@ button, input[type=submit] {
   border-radius: 0px;
   color: white;
   font-size: 18px;
-  padding: 0.5em 2em;
+  padding: 0.65em 2em;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1851,6 +1851,11 @@ body {
 .idyll-text-container p {
   color: #ADADAD;
 }
+
+.idyll-text-container p b {
+  color: #BEBEBE;
+}
+
 .idyll-text-container p a,
 aside a, a {
   color: #ADADAD;
