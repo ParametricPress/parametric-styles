@@ -1855,6 +1855,7 @@ body {
   color: #ADADAD;
 }
 
+.idyll-text-container p strong,
 .idyll-text-container p b {
   color: #BEBEBE;
 }
