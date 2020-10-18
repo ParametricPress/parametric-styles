@@ -1264,7 +1264,7 @@ a {
 
 
 .parametric-issue-toc {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .parametric-float-right {
@@ -2143,7 +2143,7 @@ button {
 
 
 
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1441px) {
   .parametric-recirc-next-article {
     margin-left: auto;
     margin-right: auto;
