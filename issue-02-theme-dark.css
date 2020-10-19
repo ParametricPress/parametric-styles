@@ -1814,6 +1814,17 @@ body {
   overflow-x: visible;
 }
 
+p a:hover {
+  color: #D8FFA2;
+}
+
+.idyll-text-container a:hover {
+  color: #D8FFA2;
+}
+
+.parametric-author-bio a:hover {
+  color: #D8FFA2;
+}
 
 /**
  DARK  MODE
